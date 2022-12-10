@@ -1,0 +1,89 @@
+/*General*/
+
+html,body{
+    height: 100%;
+}
+
+body{
+    background-color: #151e33;
+    font-family: sans-serif;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Contenedor*/
+.contenedor{
+    width: 60%;
+    min-width: 320px;
+    max-width: 720px;
+    height: 85%;
+    background-color: #18233b ;
+    border-radius: 15px;
+}
+
+.login{
+    text-align: end;
+    margin: 2.5rem ;
+}
+
+/*Enlaces*/
+a{
+    color: #e3627f;
+}
+
+/*Encabezado*/
+.contacto{
+    width: 58%;    
+    margin: 0 auto;    
+}
+
+.contacto p, h1{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/*Formulario*/
+.registro{
+    padding: 0 0.5rem;
+}
+
+.registro label{
+    display: block;    
+    margin: 1.7rem 0 0.5rem 0;
+    width: 100%;
+    
+}
+
+.registro input{
+    display: block;
+    padding: 1rem 1rem; 
+    border: 0.1rem solid #202e4e;
+    border-radius: 5px;
+    background-color: transparent;  
+    width:92% ;
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+.registro input::placeholder{
+    color: whitesmoke;
+}
+
+.registro input[type='submit']{
+    background-color: #e3627f;
+    margin: 1.7rem 0;
+    width: 100%;
+    border: none;
+}
+
+/*Legal*/
+
+.legal p{
+    text-align: center;
+    background-color: #202e4e;
+    padding: 2rem;
+    margin: 0 4rem;
+    border-radius: 5px;
+} 
